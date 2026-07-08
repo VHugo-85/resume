@@ -177,8 +177,7 @@ h3 {
   color: var(--secondary-accent);
   font-weight: 600;
   font-size: 1.2em;
-  margin-top: 1.2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
 }
 
 h4 {
@@ -375,6 +374,57 @@ a:hover {
   flex-shrink: 0;
 }
 
+/* Contact Footer Section */
+.contact-footer {
+  background: linear-gradient(135deg, rgba(30, 58, 95, 0.95) 0%, rgba(52, 152, 219, 0.9) 100%);
+  color: white;
+  padding: 3rem !important;
+  border-radius: 10px;
+  margin: 3rem 0;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  border-bottom: 4px solid var(--accent-color);
+}
+
+.contact-footer h3 {
+  color: white;
+  margin-bottom: 1rem;
+  border: none;
+  padding: 0;
+}
+
+.contact-footer p {
+  color: rgba(255, 255, 255, 0.95);
+  margin-bottom: 1.5rem;
+  font-size: 0.95em;
+}
+
+.email-display {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+  font-family: 'Courier New', monospace;
+  font-weight: 600;
+  font-size: 1.05em;
+  letter-spacing: 0.5px;
+  border: 2px solid var(--accent-color);
+}
+
+.email-at {
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+.contact-note {
+  font-size: 0.85em;
+  opacity: 0.9;
+  margin-top: 1rem;
+}
+
 /* Responsive - Tablet */
 @media (max-width: 1024px) {
   main.two-column {
@@ -428,6 +478,11 @@ a:hover {
     flex-direction: column;
     align-items: flex-start;
   }
+
+  .email-display {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
 }
 
 /* Print Styles */
@@ -445,6 +500,10 @@ a:hover {
   .find-me-section {
     background: white;
     border: 1px solid var(--light-gray);
+  }
+
+  .contact-footer {
+    page-break-inside: avoid;
   }
 
   .download-btn {
@@ -481,7 +540,6 @@ footer {
   padding: 2rem;
   color: #7f8c8d;
   font-size: 0.9em;
-  margin-top: 3rem;
 }
 
 footer a {
