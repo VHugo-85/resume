@@ -1,0 +1,396 @@
+/* Professional Resume Styles */
+
+:root {
+  --primary-color: #1e3a5f;
+  --accent-color: #2ecc71;
+  --secondary-accent: #3498db;
+  --text-color: #2c3e50;
+  --light-gray: #ecf0f1;
+  --border-color: #bdc3c7;
+  --success: #27ae60;
+  --info: #2980b9;
+}
+
+/* Typography */
+body, p {
+  color: var(--text-color);
+  line-height: 1.7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.95rem;
+}
+
+/* Main Headings */
+h1 {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 2.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.3em;
+  border-bottom: 3px solid var(--accent-color);
+  padding-bottom: 0.5em;
+  letter-spacing: -0.5px;
+}
+
+h2 {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 1.8em;
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+  border-left: 5px solid var(--accent-color);
+  padding-left: 0.8em;
+  position: relative;
+}
+
+h3 {
+  color: var(--secondary-accent);
+  font-weight: 600;
+  font-size: 1.3em;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+h4 {
+  color: var(--text-color);
+  font-weight: 600;
+  font-size: 1.1em;
+  margin-top: 0.8em;
+}
+
+/* Subtitle */
+.subtitle {
+  color: var(--secondary-accent);
+  font-size: 1.1em;
+  font-weight: 500;
+  margin: 0.5em 0 1.5em 0;
+  line-height: 1.5;
+}
+
+/* Horizontal Rules */
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, var(--accent-color), var(--secondary-accent), var(--accent-color));
+  margin: 2em 0;
+}
+
+/* Links */
+a {
+  color: var(--secondary-accent);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--secondary-accent);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 500;
+}
+
+a:hover {
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+  background-color: rgba(46, 204, 113, 0.1);
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+/* Lists */
+ul, ol {
+  margin-left: 1.8em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+li {
+  margin-bottom: 0.6em;
+  line-height: 1.6;
+}
+
+li:first-child {
+  margin-top: 0.3em;
+}
+
+/* Strong emphasis for job titles and key terms */
+strong {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+/* Emphasis */
+em {
+  color: var(--text-color);
+  font-style: italic;
+}
+
+/* Code and Pre */
+code {
+  background-color: var(--light-gray);
+  color: #c0392b;
+  padding: 0.2em 0.5em;
+  border-radius: 3px;
+  font-size: 0.9em;
+  font-family: 'Courier New', monospace;
+  border: 1px solid var(--border-color);
+}
+
+pre {
+  background-color: #f5f5f5;
+  border-left: 5px solid var(--accent-color);
+  padding: 1em;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 0.85em;
+  line-height: 1.4;
+  margin: 1em 0;
+}
+
+pre code {
+  background-color: transparent;
+  color: #333;
+  padding: 0;
+  border: none;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 5px solid var(--secondary-accent);
+  padding-left: 1.2em;
+  margin-left: 0;
+  margin-right: 0;
+  color: #555;
+  font-style: italic;
+  background-color: rgba(52, 152, 219, 0.05);
+  padding: 1em;
+  border-radius: 4px;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  font-size: 0.95em;
+}
+
+table thead {
+  background-color: var(--primary-color);
+}
+
+th {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.9em;
+  text-align: left;
+  font-weight: 700;
+  border: 1px solid var(--border-color);
+}
+
+td {
+  padding: 0.8em;
+  border: 1px solid var(--border-color);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: rgba(236, 240, 241, 0.5);
+}
+
+tbody tr:hover {
+  background-color: rgba(46, 204, 113, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+/* Callouts and Special Boxes */
+.callout {
+  border-left: 5px solid var(--accent-color);
+  padding: 1.2em;
+  margin: 1.5em 0;
+  background-color: rgba(46, 204, 113, 0.08);
+  border-radius: 4px;
+  line-height: 1.6;
+}
+
+.callout-title {
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 0.5em;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--primary-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid var(--accent-color);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.2em;
+  color: white !important;
+  letter-spacing: 0.5px;
+}
+
+.nav-link {
+  color: #ecf0f1 !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 0.5em !important;
+}
+
+.nav-link:hover {
+  color: var(--accent-color) !important;
+  border-bottom: 2px solid var(--accent-color);
+}
+
+.nav-link.active {
+  color: var(--accent-color) !important;
+  border-bottom: 2px solid var(--accent-color);
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 2em 1em;
+  text-align: center;
+  margin-top: 3em;
+  font-size: 0.9em;
+  border-top: 3px solid var(--accent-color);
+}
+
+footer a {
+  color: var(--accent-color);
+  border-bottom-color: var(--accent-color);
+}
+
+footer a:hover {
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+/* TOC Styling */
+.toc {
+  background-color: var(--light-gray);
+  border-left: 5px solid var(--accent-color);
+  padding: 1.5em;
+  border-radius: 4px;
+  margin: 2em 0;
+}
+
+.toc-title {
+  font-weight: 700;
+  color: var(--primary-color);
+  font-size: 1.1em;
+  margin-bottom: 0.8em;
+}
+
+.toc ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.toc > ul > li > a {
+  font-weight: 600;
+}
+
+/* Main Content Area */
+main {
+  line-height: 1.8;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2em 1em;
+}
+
+/* Section Headers (Job titles, etc.) */
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.position-title {
+  font-weight: 700;
+  color: var(--primary-color);
+  font-size: 1.1em;
+}
+
+.company-name {
+  font-weight: 600;
+  color: var(--secondary-accent);
+}
+
+.date-range {
+  color: #7f8c8d;
+  font-size: 0.95em;
+  font-style: italic;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1.1em;
+  }
+
+  body {
+    font-size: 0.9rem;
+  }
+
+  main {
+    padding: 1em;
+  }
+
+  .section-header {
+    flex-direction: column;
+  }
+
+  .date-range {
+    margin-top: 0.3em;
+  }
+}
+
+/* Print Styles */
+@media print {
+  body {
+    color: black;
+    background: white;
+  }
+
+  a {
+    color: black;
+    text-decoration: underline;
+    border-bottom: none;
+  }
+
+  .navbar, footer, .toc {
+    display: none !important;
+  }
+
+  h1, h2, h3, h4 {
+    page-break-after: avoid;
+  }
+
+  ul, ol, li {
+    page-break-inside: avoid;
+  }
+
+  table {
+    page-break-inside: avoid;
+  }
+
+  body {
+    margin: 0;
+    padding: 0.5in;
+  }
+
+  hr {
+    border: 1px solid black;
+    background: none;
+  }
+}

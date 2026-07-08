@@ -1,0 +1,72 @@
+---
+title: "About Me"
+---
+
+## Professional Journey
+
+My career bridges agricultural science and data analytics, reflecting a deep commitment to addressing global agricultural challenges through evidence-based decision-making. Starting as a Plant Protection Engineer focused on pest management and sustainable farming practices, I've evolved into a data scientist leveraging geospatial analysis and machine learning to optimize agricultural production and environmental stewardship.
+
+At the **National Agrarian University**, I channel my expertise into teaching the next generation of agricultural professionals, equipping them with data science tools to tackle real-world problems in crop protection, yield optimization, and sustainable agroforestry. This academic role has sharpened my ability to translate complex scientific concepts into actionable insights—a skill that extends seamlessly into consulting and research applications.
+
+## Specialization & Expertise
+
+### Geospatial Data Science
+I specialize in extracting actionable intelligence from spatial data using advanced analytical techniques. My work integrates:
+- Remote sensing and satellite imagery analysis
+- Raster and vector spatial data processing
+- Environmental monitoring and land-use classification
+- Climate-smart agriculture recommendations
+
+### Agricultural Research & Analytics
+Applying rigorous statistical methodologies to solve agricultural challenges:
+- Experimental design and statistical modeling
+- Yield forecasting and crop management optimization
+- Integrated pest management (IPM) strategies
+- Nature-based solutions for sustainable production
+
+### Computational & Data Skills
+Proficiency in modern data science tools and workflows:
+- **Python**: Data manipulation, machine learning, deep learning
+- **R**: Statistical analysis, geospatial processing, interactive applications (Shiny)
+- **GIS**: QGIS, ArcGIS for spatial analysis and visualization
+- **Version Control**: Git and GitHub for reproducible research
+
+## Beyond Professional Work
+
+I'm passionate about citizen science and biodiversity monitoring through platforms like **iNaturalist**, contributing observations to global biodiversity datasets. I maintain an active academic presence through **Google Scholar** and share research outputs via **ORCID**, demonstrating commitment to open science and knowledge dissemination.
+
+## Professional Philosophy
+
+I believe technology and data science are powerful catalysts for sustainable development. My work is guided by:
+- **Rigor**: High standards for experimental design and statistical integrity
+- **Practicality**: Solutions must be implementable and scalable in real-world contexts
+- **Collaboration**: Multicultural teams and interdisciplinary approaches yield superior outcomes
+- **Continuous Learning**: Staying current with emerging tools and methodologies in a rapidly evolving field
+
+## Current Focus
+
+I'm actively advancing my English proficiency while deepening expertise in:
+- Advanced machine learning applications for agriculture
+- Climate change adaptation and resilience building
+- Precision agriculture and data-driven farming
+- Open-source software development for agricultural analytics
+
+## Availability
+
+- **Work Mode**: Remote, Hybrid, or On-Site
+- **Relocation**: Open to international opportunities
+- **Engagement Types**: Full-time roles, Consulting, Academic collaboration, Research partnerships
+
+---
+
+## Connect
+
+- **LinkedIn**: [Rodríguez Salguera](https://www.linkedin.com/in/rodr%C3%ADguez-salguera/?skipRedirect=true)
+- **GitHub**: [@VHugo-85](https://github.com/VHugo-85)
+- **Google Scholar**: [AguZClcAAAAJ](https://scholar.google.com/citations?user=AguZClcAAAAJ&hl=es)
+- **ORCID**: [0000-0001-9476-0665](https://orcid.org/0000-0001-9476-0665)
+- **iNaturalist**: [rodriguez-salguera](https://www.inaturalist.org/people/rodriguez-salguera)
+
+---
+
+Back to [Resume](resume.html)

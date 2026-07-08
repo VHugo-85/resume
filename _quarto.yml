@@ -1,0 +1,48 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Víctor Hugo Rodríguez Salguera | Agri-Data Scientist"
+  description: "Professional Resume & Experience Portfolio"
+  navbar:
+    left:
+      - text: "Resume"
+        href: resume.html
+      - text: "About"
+        href: about.html
+  footer:
+    left: "© 2026 Víctor Hugo Rodríguez Salguera"
+    right: "Built with [Quarto](https://quarto.org) • [GitHub](https://github.com/VHugo-85)"
+  google-analytics: ""
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 2
+    code-fold: true
+    code-summary: "View Code"
+    embed-resources: true
+    
+  pdf:
+    documentclass: article
+    margin-top: 0.5in
+    margin-bottom: 0.5in
+    margin-left: 0.75in
+    margin-right: 0.75in
+    fontsize: "11pt"
+    linestretch: 1.15
+    colorlinks: true
+    hyperrefoptions:
+      - "bookmarksnumbered=true"
+    include-in-header:
+      text: |
+        \usepackage{fancyhdr}
+        \usepackage{enumitem}
+        \pagestyle{fancy}
+        \rhead{Víctor Hugo Rodríguez Salguera}
+        \lfoot{Professional Resume}
+        \cfoot{\thepage}
+        \setlist[itemize]{topsep=0pt, partopsep=0pt}

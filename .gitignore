@@ -1,0 +1,51 @@
+# Quarto output directories
+docs/
+_files/
+_freeze/
+.quarto/
+
+# RStudio
+.Rproj.user/
+*.Rproj
+.Rhistory
+.Rdata
+.RDataTmp
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+
+# OS
+Thumbs.db
+
+# Build artifacts
+*.pdf
+*.html
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+.tmp/
+*.bak

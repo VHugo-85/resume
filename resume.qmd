@@ -1,0 +1,138 @@
+---
+title: "Víctor Hugo Rodríguez Salguera"
+subtitle: "Plant Protection Engineer · Master in Sustainable Agriculture & Agroforestry\nAgri-Data Scientist | Geospatial Data Science | Nature Analytics"
+author: "Víctor Hugo Rodríguez Salguera"
+date: today
+format:
+  html:
+    embed-resources: true
+  pdf:
+    include-in-header:
+      text: |
+        \usepackage{enumitem}
+        \setlist[itemize]{topsep=0pt, partopsep=0pt}
+---
+
+## 📞 Contact Information
+
+- **Email**: [your-email@example.com](mailto:your-email@example.com)
+- **LinkedIn**: [Rodríguez Salguera](https://www.linkedin.com/in/rodr%C3%ADguez-salguera/?skipRedirect=true)
+- **GitHub**: [@VHugo-85](https://github.com/VHugo-85)
+- **Google Scholar**: [AguZClcAAAAJ](https://scholar.google.com/citations?user=AguZClcAAAAJ&hl=es)
+- **ORCID**: [0000-0001-9476-0665](https://orcid.org/0000-0001-9476-0665)
+- **Location**: Managua, Nicaragua
+
+---
+
+## 💼 Professional Summary
+
+Plant Protection Engineer and Master in Sustainable Agriculture & Agroforestry, specializing in the intersection of geospatial data science and nature analytics. Advanced proficiency in spatial analysis and data modeling using Python, R, QGIS, and ArcGIS to extract actionable, data-driven solutions for complex environmental challenges. Proven ability to translate domain expertise into scalable machine learning and analytical applications. Driven by continuous professional advancement and fully equipped to perform in high-stakes, multicultural professional environments.
+
+---
+
+## 🛠️ Technical & Core Skills
+
+### Agri-Data Science
+- **Programming Languages**: Python (Pandas, NumPy, Scikit-Learn, TensorFlow, PyTorch), R (tidyverse, Google Earth Engine API, Raster, Terra, Shiny), SQL
+- **Version Control**: Git, GitHub
+- **Data Manipulation**: Advanced statistical modeling, time series analysis, machine learning
+
+### Geospatial Systems & Remote Sensing
+- **GIS Software**: QGIS, ArcGIS Desktop & Online
+- **Spatial Analysis**: Raster/Vector Analytics, Spatial Data Modeling, Satellite Imagery Processing
+- **Remote Sensing**: Land use/land cover classification, spectral analysis, environmental monitoring
+
+### Agri-Environmental Domain Expertise
+- Plant Protection & Integrated Pest Management
+- Agroforestry Systems Design & Analysis
+- Sustainable Agriculture & Climate-Smart Agriculture
+- Nature-Based Solutions for environmental challenges
+- Crop yield optimization and experimental design
+
+### Development & Deployment Tools
+- Jupyter Notebooks, RStudio, VS Code, Google Colab
+- Reproducible research pipelines
+- Data visualization (Matplotlib, Plotly, ggplot2)
+
+### Languages
+- **Spanish**: Native
+- **English**: Intermediate / Professional Working Proficiency (actively advancing)
+
+---
+
+## 💼 Professional Experience
+
+### Agri-Data Analysis Professor & Researcher
+**National Agrarian University** | Managua, Nicaragua | *September 2019 – Present*
+
+- **Capacity Building in Data Science**: Spearheaded academic modules designed to build data science capabilities among students and professionals, specifically targeting experimental design and analysis in plant health, agronomy, and agro-industry
+- **Applied Agricultural Research**: Led and executed cutting-edge research projects, utilizing advanced statistical models and data analytics to solve critical challenges in crop protection and yield optimization
+- **Thesis Advisory & Mentorship**: Served as lead thesis advisor for undergraduate and postgraduate students, guiding them through rigorous scientific methodologies, data interpretation, and successful defenses in agricultural sciences
+- **Experimental Design**: Provided expert consultancy in designing complex field and laboratory experiments, ensuring robust data collection and high-integrity statistical analysis for university-backed agricultural trials
+
+### Project Management Specialist
+**World Vision Nicaragua** | Estelí, Nicaragua | *February 2012 – December 2015*
+
+- **Efficient Budget Execution**: Managed and optimized multi-million dollar budgets for community development initiatives, achieving a high rate of financial efficiency and compliance while strictly adhering to international donor guidelines
+- **Impact & Outcome Achievement**: Successfully delivered health and nutrition projects across vulnerable communities, consistently meeting and exceeding target KPIs related to childhood nutrition, health, and food security
+- **Monitoring & Evaluation (M&E)**: Implemented rigorous data-driven M&E frameworks to track project outcomes, transforming field data into actionable insights and comprehensive impact reports for stakeholders
+- **Cross-Functional Leadership**: Coordinated multidisciplinary field teams, local authorities, and community leaders to guarantee seamless execution, sustainability, and high impact of programs and projects
+
+---
+
+## 🎓 Education
+
+### M.Sc. in Agroforestry & Sustainable Agriculture
+**Tropical Agronomic Center for Research and Teaching (CATIE)** | Turrialba, Costa Rica | *2016*
+
+- Specialized in sustainable production systems and environmental conservation
+- Focus on agroforestry design and implementation
+- Advanced coursework in climate-smart agriculture
+
+### Engineer in Plant Protection & Agricultural Forestry Systems
+**National Agrarian University (UNA)** | Managua, Nicaragua | *2007*
+
+- Foundation in plant pathology, entomology, and crop management
+- Emphasis on integrated pest management (IPM) and sustainable practices
+
+---
+
+## 📚 Data Science Certifications
+
+**Institute of Business Analytics (Peru)** | *2026*
+
+- Analysis and Modeling of Time Series
+- Machine Learning Models for Forecasting
+- Statistical Models with Python
+- Probability and Inferential Statistics with R
+- Descriptive Statistics with R
+- Git and GitHub from Scratch
+- GitHub for Production in Data Science
+- SQL for Data Science
+
+---
+
+## 🔬 Research & Publications
+
+**Key Research Areas:**
+- Statistical modeling for agricultural experiments
+- Time series forecasting for crop yield prediction
+- Geospatial analysis for land use and environmental monitoring
+- Integrated pest management optimization using data science
+
+**Google Scholar Profile**: [AguZClcAAAAJ](https://scholar.google.com/citations?user=AguZClcAAAAJ&hl=es)  
+**ORCID**: [0000-0001-9476-0665](https://orcid.org/0000-0001-9476-0665)
+
+---
+
+## 🌱 Notable Projects
+
+- Statistical analysis of repeated measures in experimental inoculant data
+- Occurrence analysis of *Megalurotrips usitatus* with botanical and biological treatments
+- *Ralstonia* pathogen analysis in wild tomato species
+- Machine learning model for housing price prediction in Lima, Peru
+- Time series forecasting and machine learning applications in agricultural production
+
+---
+
+*Last updated: `r format(Sys.Date(), '%B %d, %Y')`*
