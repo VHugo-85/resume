@@ -10,15 +10,23 @@ This repository contains my resume/CV generated with **Quarto**, enabling multip
 ```
 .
 ├── _quarto.yml          # Quarto configuration
+├── index.qmd            # Homepage redirect to resume
 ├── resume.qmd           # Main resume content
 ├── about.qmd            # About me section
 ├── styles.css           # Custom styles
-└── docs/                # Generated output (HTML, PDF)
+├── .github/workflows/   # Auto-deploy on push to main
+└── docs/                # Generated output (HTML, PDF) for GitHub Pages
 ```
 
 ## How to Generate Documents
 
-### Prerequisites
+### Option 1: Automatic deployment (recommended)
+
+Push changes to `main`. GitHub Actions runs `quarto render` and publishes the `docs/` folder automatically.
+
+### Option 2: Local build
+
+#### Prerequisites
 ```bash
 # Install Quarto
 # Download from: https://quarto.org/docs/getting-started/installation.html
@@ -27,20 +35,12 @@ This repository contains my resume/CV generated with **Quarto**, enabling multip
 quarto install tinytex
 ```
 
-### Generate HTML (Blog)
-```bash
-quarto render resume.qmd --to html
-```
-
-### Generate PDF
-```bash
-quarto render resume.qmd --to pdf
-```
-
-### Generate All Formats
+#### Generate All Formats
 ```bash
 quarto render
 ```
+
+Then commit and push the updated `docs/` folder.
 
 ## Live Preview
 ```bash

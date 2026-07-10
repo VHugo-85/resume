@@ -5,16 +5,16 @@ project:
 website:
   title: "Víctor Hugo Rodríguez Salguera | Agri-Data Scientist"
   description: "Professional Resume & Experience Portfolio"
+  site-url: https://vhugo-85.github.io/resume/
   navbar:
     left:
       - text: "Resume"
         href: resume.html
       - text: "About"
         href: about.html
-  footer:
+  page-footer:
     left: "© 2026 Víctor Hugo Rodríguez Salguera"
     right: "Built with [Quarto](https://quarto.org) • [GitHub](https://github.com/VHugo-85)"
-  google-analytics: ""
 
 format:
   html:
@@ -24,7 +24,6 @@ format:
     toc-depth: 2
     code-fold: true
     code-summary: "View Code"
-    embed-resources: true
     
   pdf:
     documentclass: article

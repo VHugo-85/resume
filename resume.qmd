@@ -1,11 +1,11 @@
 ---
 title: "Víctor Hugo Rodríguez Salguera"
-subtitle: "Plant Protection Engineer · Master in Sustainable Agriculture & Agroforestry\nAgri-Data Scientist | Geospatial Data Science | Nature Analytics"
+subtitle: |
+  Plant Protection Engineer · Master in Sustainable Agriculture & Agroforestry  
+  Agri-Data Scientist | Geospatial Data Science | Nature Analytics
 author: "Víctor Hugo Rodríguez Salguera"
 date: today
 format:
-  html:
-    embed-resources: true
   pdf:
     include-in-header:
       text: |
@@ -15,7 +15,7 @@ format:
 
 ## 📞 Contact Information
 
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
+- **Email**: [vhugor0585@gmail.com](mailto:vhugor0585@gmail.com)
 - **LinkedIn**: [Rodríguez Salguera](https://www.linkedin.com/in/rodr%C3%ADguez-salguera/?skipRedirect=true)
 - **GitHub**: [@VHugo-85](https://github.com/VHugo-85)
 - **Google Scholar**: [AguZClcAAAAJ](https://scholar.google.com/citations?user=AguZClcAAAAJ&hl=es)
@@ -115,6 +115,7 @@ Plant Protection Engineer and Master in Sustainable Agriculture & Agroforestry, 
 ## 🔬 Research & Publications
 
 **Key Research Areas:**
+
 - Statistical modeling for agricultural experiments
 - Time series forecasting for crop yield prediction
 - Geospatial analysis for land use and environmental monitoring
@@ -135,4 +136,6 @@ Plant Protection Engineer and Master in Sustainable Agriculture & Agroforestry, 
 
 ---
 
-*Last updated: `r format(Sys.Date(), '%B %d, %Y')`*
+```{=html}
+<p><em>Last updated: <script>document.write(new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }));</script></em></p>
+```

@@ -1,8 +1,7 @@
-# Quarto output directories
-docs/
-_files/
-_freeze/
+# Quarto cache directories (not deploy output)
 .quarto/
+_freeze/
+_files/
 
 # RStudio
 .Rproj.user/
@@ -34,9 +33,7 @@ ENV/
 # OS
 Thumbs.db
 
-# Build artifacts
-*.pdf
-*.html
+# Build artifacts outside docs/
 dist/
 build/
 
@@ -49,3 +46,5 @@ yarn-error.log*
 # Temporary files
 .tmp/
 *.bak
+
+**/*.quarto_ipynb
